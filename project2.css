@@ -1,0 +1,76 @@
+body{
+    background-color:rgb(107, 106, 102);
+}
+
+
+.card-body{
+    padding: 40px;
+}
+.card-title{
+    color: rgba(66, 66, 66, 0.781);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    
+}
+
+h1{
+    padding-top: 20px;
+    font-family: 'Fraunces', serif;
+}
+
+.card-text{
+    color: rgba(66, 66, 66, 0.781);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+
+.price{
+    color: rgba(1, 54, 24, 0.781);
+    font-size: 28px;
+    font-family: 'Fraunces', serif;
+    padding-top: 20px;
+}
+
+.small{
+    padding-bottom: 10px;
+    color:  rgba(66, 66, 66, 0.781) !important;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 20px;
+
+}
+
+.btn{
+    color: white;
+    font-size: 16px;
+    font-weight:bolder;
+    background-color: rgba(1, 54, 24, 0.781);;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.btn:hover{
+    color: white;
+    border-color: black;
+    background-color: rgb(2, 49, 22) !important;
+}
+
+.lg-img{
+    display: block !important;
+    height: 100%;
+}
+.sm-img{
+    display: none !important;
+}
+@media (max-width: 575.98px) {
+    .lg-img{
+        display: none !important;
+    }
+    .sm-img{
+        display: block !important;
+    }
+}
